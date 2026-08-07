@@ -1,0 +1,6 @@
+services:
+  openyolo:
+    build: .
+    entrypoint: /root/.opencode/bin/opencode
+    volumes:
+      - ./projects:/work:Z
